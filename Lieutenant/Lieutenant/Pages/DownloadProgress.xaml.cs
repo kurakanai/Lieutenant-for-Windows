@@ -48,6 +48,7 @@ public sealed partial class DownloadProgress : Page
         if (string.IsNullOrEmpty(downloadURL)) return;
 
         DownloadProgressBar.Visibility = Visibility.Visible;
+        Directory.CreateDirectory("Bootcamp");
         var progress = new Progress<DownloadProgressReport>(report =>
         {
             DownloadProgressBar.Value = report.Percentage;
