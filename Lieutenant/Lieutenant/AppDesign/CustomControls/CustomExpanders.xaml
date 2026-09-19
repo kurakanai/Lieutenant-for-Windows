@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="LieutenantDefaultExpanderBase" TargetType="Expander">
+        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+        <Setter Property="Background" Value="{ThemeResource CustomAcrylicInAppLuminositySlightTint}"/>
+    </Style>
+    
+    <Style x:Key="LieutenantDefaultExpander" TargetType="Expander" BasedOn="{StaticResource LieutenantDefaultExpanderBase}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+    </Style>
+    
+    <Style x:Key="LieutenantExpanderColorPicker" TargetType="Expander" BasedOn="{StaticResource LieutenantDefaultExpanderBase}">
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+    
+</ResourceDictionary>

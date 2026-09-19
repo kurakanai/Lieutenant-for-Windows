@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <Page Update="AppDesign\ArduinoElements\ArduinoInterfaceHomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomComboBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomDropDowns.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomExpanders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomFrames.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomGrids.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomGridViews.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomImageStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomNavigationViews.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomProgressRings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomRectangles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomScrollViewers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomSliders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomStackPanels.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomTabViews.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomTextBlocks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomTextBoxes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomToggleSwitch.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\CustomControls\CustomWebView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\Elements\Widgets.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppDesign\ThemeOverrides.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DownloadProgress.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DownloadBootcamp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomStyles\CustomButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomStyles\CustomTextBlocks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <None Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <Page Update="Pages\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Lieutenant.Pages.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lieutenant.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Spacing="10">
+            <TextBlock x:Uid="WelcomeText" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center"/>
+            <TextBlock x:Uid="WelcomeSubtext" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center"/>
+            <Button Style="{StaticResource LieutenantButton}" Height="100" Width="610" FontSize="20" x:Uid="ThisPCBtn" HorizontalAlignment="Center" Tapped="Button_Tapped"/>
+        </StackPanel>
+    </Grid>
+</Page>

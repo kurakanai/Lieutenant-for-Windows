@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Lieutenant.Pages.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lieutenant.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <ScrollViewer Name="MainScroll" Padding="10,0,10,0">
+            <StackPanel Style="{StaticResource LieutenantStackPanelFullPage}">
+                <TextBlock x:Uid="Settings" Style="{StaticResource LieutenantTitleTextBlock}"/>
+                <Expander x:Uid="AboutUpdatesHeader" Style="{StaticResource LieutenantDefaultExpander}">
+                    <StackPanel Style="{StaticResource LieutenantStackPanelSettings}">
+                        <Image Name="AppIconImg" Height="100" Margin="0,-10,0,0"/>
+                        <TextBlock Style="{StaticResource LieutenantLogoTextBlock}" Margin="0,-20,0,0"/>
+                        <Grid>
+                            <TextBlock x:Uid="Version" Style="{StaticResource LieutenantVerticalCenterTextBlock}"/>
+                            <TextBlock Name="VersionString" Text="-" Style="{StaticResource LieutenantVerticalCenterTextBlockRight}"/>
+                        </Grid>
+                        <Grid>
+                            <TextBlock x:Uid="Update" Style="{StaticResource LieutenantVerticalCenterTextBlock}"/>
+                            <StackPanel Style="{StaticResource LieutenantStackPanelHorizontal}">
+                                <HyperlinkButton Name="UpdateLocalBtn" x:Uid="UpdateLocalBtn" Style="{StaticResource LieutenantHyperlinkButtonSettings}"/>
+                                <Button Name="UpdateBtn" IsEnabled="False" x:Uid="CheckingUpdates" Style="{StaticResource LieutenantAccentButtonRight}"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <TextBlock x:Uid="kura" Style="{StaticResource LieutenantVerticalCenterTextBlock}"/>
+                            <StackPanel Style="{StaticResource LieutenantStackPanelHorizontal}">
+                                <HyperlinkButton x:Uid="Donate" Style="{StaticResource LieutenantHyperlinkButtonSettings}"/>
+                                <HyperlinkButton Content="GitHub" Style="{StaticResource LieutenantHyperlinkButtonSettings}"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Expander>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

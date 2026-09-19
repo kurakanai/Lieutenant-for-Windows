@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="LieutenantBaseText" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="LieutenantTimeStamp" TargetType="TextBlock" BasedOn="{StaticResource LieutenantBaseText}">
+        <Setter Property="Text" Value="--:--"/>
+    </Style>
+
+    <Style x:Key="LieutenantTimeStampCenter" TargetType="TextBlock" BasedOn="{StaticResource LieutenantTimeStamp}">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="LieutenantMacroTextBlock" TargetType="TextBlock">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Opacity" Value="0.7"/>
+    </Style>
+    
+    <Style x:Key="LieutenantLogoTextBlock" TargetType="TextBlock" BasedOn="{StaticResource LieutenantMacroTextBlock}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="Segoe UI Variable Display"/>
+        <Setter Property="Text" Value="Lieutenant"/>
+    </Style>
+    
+    <Style x:Key="LieutenantBackupTextBlock" TargetType="TextBlock" BasedOn="{StaticResource LieutenantMacroTextBlock}">
+        <Setter Property="FontSize" Value="24"/>
+    </Style>
+    
+    <Style x:Key="LieutenantTitleTextBlock" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="Normal"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="Padding" Value="2,0,0,0"/>
+    </Style>
+    
+    <Style x:Key="LieutenantVerticalCenterTextBlock" TargetType="TextBlock">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    
+    <Style x:Key="LieutenantVerticalCenterTextBlockRight" TargetType="TextBlock" BasedOn="{StaticResource LieutenantVerticalCenterTextBlock}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+
+    <Style x:Key="LieutenantTextBlockNoItemsLaunchpad" TargetType="TextBlock" BasedOn="{StaticResource LieutenantMacroTextBlock}">
+        <Setter Property="IsHitTestVisible" Value="False"/>
+        <Setter Property="FontSize" Value="36"/>
+        <Setter Property="Padding" Value="20"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+    </Style>
+    <!--Icon related-->
+    <Style x:Key="LieutenantIconTextBase" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Segoe Fluent Icons"/>
+    </Style>
+    <Style x:Key="LieutenantBatteryBase" TargetType="TextBlock" BasedOn="{StaticResource LieutenantIconTextBase}">
+        <Setter Property="Text" Value="&#xe83f;"/>
+    </Style>
+    <Style x:Key="LieutenantBatterySmall" TargetType="TextBlock" BasedOn="{StaticResource LieutenantBatteryBase}">
+        <Setter Property="Width" Value="25"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+    <Style x:Key="LieutenantBatteryWidgetBaseTextBlock" TargetType="TextBlock">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="0,-3,0,0"/>
+    </Style>
+    <Style x:Key="LieutenantBatteryPercentage" TargetType="TextBlock" BasedOn="{StaticResource LieutenantBatteryWidgetBaseTextBlock}">
+        <Setter Property="Text" Value="-%"/>
+        <Setter Property="Width" Value="35"/>
+    </Style>
+    <Style x:Key="LieutenantDevName" TargetType="TextBlock" BasedOn="{StaticResource LieutenantBatteryWidgetBaseTextBlock}">
+        <Setter Property="Text" Value="-"/>
+        <Setter Property="Width" Value="160"/>
+    </Style>
+    <!--Sensors-->
+    <Style x:Key="LieutenantSensorLeftBase" TargetType="TextBlock" BasedOn="{StaticResource LieutenantVerticalCenterTextBlock}">
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+    <Style x:Key="LieutenantSensorLeftName" TargetType="TextBlock" BasedOn="{StaticResource LieutenantSensorLeftBase}">
+        <Setter Property="Text" Value="-"/>
+        <Setter Property="Foreground" Value="{ThemeResource SystemBaseMediumColor}"/>
+    </Style>
+    <Style x:Key="LieutenantSensorRightBase" TargetType="TextBlock" BasedOn="{StaticResource LieutenantSensorLeftBase}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+    <Style x:Key="LieutenantSensorRight" TargetType="TextBlock" BasedOn="{StaticResource LieutenantSensorRightBase}">
+        <Setter Property="Margin" Value="0,0,10,0"/>
+    </Style>
+    <!--Media Stuff-->
+    <Style x:Key="LieutenantPlaceholder" TargetType="TextBlock">
+        <Setter Property="Text" Value=""/>
+    </Style>
+    <Style x:Key="LieutenantMediaTitle" TargetType="TextBlock" BasedOn="{StaticResource LieutenantPlaceholder}">
+        <Setter Property="FontSize" Value="40"/>
+    </Style>
+    <Style x:Key="LieutenantMediaSubtext" TargetType="TextBlock" BasedOn="{StaticResource LieutenantPlaceholder}">
+        <Setter Property="FontSize" Value="25"/>
+    </Style>
+    <Style x:Key="LieutenantMediaLyrics" TargetType="TextBlock" BasedOn="{StaticResource LieutenantMediaSubtext}">
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+    </Style>
+</ResourceDictionary>

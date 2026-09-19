@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Lieutenant.Pages.DownloadBootcamp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lieutenant.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Spacing="10">
+            <TextBlock x:Uid="DownloadText" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center"/>
+            <TextBlock x:Uid="DownloadSubtext" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+                <ComboBox x:Name="CboFamily" Height="100" Width="150" FontSize="20" x:Uid="MacFamily" SelectionChanged="CboFamily_SelectionChanged"/>
+                <ComboBox x:Name="CboSubfamily" Height="100" Width="150" FontSize="20" x:Uid="MacProduct" SelectionChanged="CboSubfamily_SelectionChanged"/>
+                <ComboBox x:Name="CboModel" Height="100" Width="150" FontSize="20" x:Uid="MacVariant" SelectionChanged="CboModel_SelectionChanged"/>
+                <ComboBox x:Name="CboYear" Height="100" Width="150" FontSize="20" x:Uid="MacYear" SelectionChanged="CboYear_SelectionChanged"/>
+            </StackPanel>
+            <Border Margin="0,16,0,0" Width="630" Padding="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8">
+                <StackPanel Spacing="12">
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <TextBlock x:Name="TxtDetectedModel" VerticalAlignment="Center" Text="Target Model Identifier: None" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                        <HyperlinkButton Content="Detect Mac (Recommended)" Height="25" Padding="0" Tapped="HyperlinkButton_Tapped"/>
+                        <HyperlinkButton Content="Report wrong information" Height="25" Padding="0"/>
+                    </StackPanel>
+                    <TextBlock x:Name="TxtDownloadUrl" Text="Download URL: Select a model year" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                    <Button x:Name="BtnDownload" Content="Download Boot Camp Pkg" IsEnabled="False" Click="BtnDownload_Click" Style="{StaticResource AccentButtonStyle}"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

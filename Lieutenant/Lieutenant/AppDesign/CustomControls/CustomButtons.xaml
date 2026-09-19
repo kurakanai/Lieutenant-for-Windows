@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Base styles-->
+    <Style x:Key="LieutenantStandardButton" TargetType="Button" BasedOn="{StaticResource DefaultButtonStyle}">
+        <Setter Property="CornerRadius" Value="8"/>
+    </Style>
+
+    <Style x:Key="LieutenantRepeatButton" TargetType="RepeatButton" BasedOn="{StaticResource RepeatButtonRevealStyle}">
+        <Setter Property="CornerRadius" Value="8"/>
+    </Style>
+
+    <Style x:Key="LieutenantSmallBrowserButton" TargetType="Button" BasedOn="{StaticResource LieutenantIconButton}">
+        <Setter Property="Width" Value="235"/>
+        <Setter Property="Height" Value="66"/>
+    </Style>
+
+    <Style x:Key="LieutenantAccentButton" TargetType="Button" BasedOn="{StaticResource AccentButtonStyle}">
+        <Setter Property="CornerRadius" Value="8"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButton" TargetType="HyperlinkButton" BasedOn="{StaticResource DefaultHyperlinkButtonStyle}">
+        <Setter Property="CornerRadius" Value="8"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonIcons" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButton}">
+        <Setter Property="FontFamily" Value="Segoe Fluent Icons"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonLyricsView" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonIcons}">
+        <Setter Property="Foreground" Value="{ThemeResource SystemBaseHighColor}"/>
+        <Setter Property="Height" Value="50"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonLyricsViewPlay" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonLyricsView}">
+        <Setter Property="FontSize" Value="25"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonMediaWidgetBase" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonLyricsView}">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonMediaBase" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonMediaWidgetBase}">
+        <Setter Property="Height" Value="60"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonMediaSmol" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonMediaWidgetBase}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonPlay" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonMediaBase}">
+        <Setter Property="FontSize" Value="36"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonMedia" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonMediaBase}">
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
+    <Style x:Key="LieutenantHyperlinkButtonLyricsViewGeneric" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButtonLyricsView}">
+        <Setter Property="FontSize" Value="15"/>
+    </Style>
+
+    <Style x:Key="LieutenantAccentButtonStretch" TargetType="Button" BasedOn="{StaticResource LieutenantAccentButton}">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    </Style>
+    
+    <Style x:Key="LieutenantAccentButtonRight" TargetType="Button" BasedOn="{StaticResource LieutenantAccentButton}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+
+    <Style x:Key="LieutenantStretchButton" TargetType="Button" BasedOn="{StaticResource LieutenantStandardButton}">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+    </Style>
+
+    <Style x:Key="LieutenantShortcutButton" TargetType="Button" BasedOn="{StaticResource LieutenantStretchButton}">
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="LieutenantIconButton" TargetType="Button" BasedOn="{StaticResource LieutenantStandardButton}">
+        <Setter Property="FontFamily" Value="Segoe Fluent Icons"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButton" TargetType="ToggleButton" BasedOn="{StaticResource ToggleButtonRevealStyle}">
+        <Setter Property="CornerRadius" Value="8"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButtonTransparent" TargetType="ToggleButton" BasedOn="{StaticResource LieutenantToggleButton}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButtonIcon" TargetType="ToggleButton" BasedOn="{StaticResource LieutenantToggleButtonTransparent}">
+        <Setter Property="FontFamily" Value="Segoe Fluent Icons"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButtonIconRight" TargetType="ToggleButton" BasedOn="{StaticResource LieutenantToggleButtonIcon}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButtonIconLyricsView" TargetType="ToggleButton" BasedOn="{StaticResource LieutenantToggleButtonIconRight}">
+        <Setter Property="Height" Value="50"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButtonIconPin" TargetType="ToggleButton" BasedOn="{StaticResource LieutenantToggleButtonIconRight}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Content" Value="&#xe718;"/>
+        <Setter Property="Margin" Value="0,0,140,0"/>
+        <Setter Property="Height" Value="32"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Padding" Value="0,0,-5,0"/>
+        <Setter Property="FontSize" Value="12"/>
+    </Style>
+
+    <Style x:Key="LieutenantToggleButtonNumPad" TargetType="ToggleButton" BasedOn="{StaticResource LieutenantToggleButton}">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    </Style>
+
+    <!--Adobe Specific-->
+    <Style x:Key="LieutenantAdobeShortcutButton" TargetType="Button" BasedOn="{StaticResource LieutenantIconButton}">
+        <Setter Property="Width" Value="239"/>
+        <Setter Property="Height" Value="68"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    </Style>
+
+    <!--Browser Specific-->
+    <Style x:Key="LieutenantBrowserButton" TargetType="Button" BasedOn="{StaticResource LieutenantIconButton}">
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="32"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+    </Style>
+    
+    <Style x:Key="LieutenantBrowserButtonRight" TargetType="Button" BasedOn="{StaticResource LieutenantBrowserButton}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+    </Style>
+    
+    <!--Settings Specific-->
+    
+    <Style x:Key="LieutenantHyperlinkButtonSettings" TargetType="HyperlinkButton" BasedOn="{StaticResource LieutenantHyperlinkButton}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    
+    
+    <!--Media Specific-->
+    <Style x:Key="LieutenantRepeatButtonTransparent" TargetType="RepeatButton" BasedOn="{StaticResource LieutenantRepeatButton}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="LieutenantRepeatButtonIcon" TargetType="RepeatButton" BasedOn="{StaticResource LieutenantRepeatButtonTransparent}">
+        <Setter Property="FontFamily" Value="Segoe Fluent Icons"/>
+    </Style>
+
+    <Style x:Key="LieutenantVolumeButtons" TargetType="RepeatButton" BasedOn="{StaticResource LieutenantRepeatButtonIcon}">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="34"/>
+    </Style>
+
+    <Style x:Key="LieutenantVolumeButtonsBottom" TargetType="RepeatButton" BasedOn="{StaticResource LieutenantVolumeButtons}">
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+    </Style>
+
+    <Style x:Key="LieutenantRepeatButtonNumPad" TargetType="RepeatButton" BasedOn="{StaticResource LieutenantRepeatButton}">
+        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+    </Style>
+
+    <Style x:Key="LieutenantRepeatButtonNumPadIcon" TargetType="RepeatButton" BasedOn="{StaticResource LieutenantRepeatButtonNumPad}">
+        <Setter Property="FontFamily" Value="Segoe Fluent Icons"/>
+    </Style>
+</ResourceDictionary>

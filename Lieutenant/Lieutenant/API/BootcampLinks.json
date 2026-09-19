@@ -1,0 +1,1183 @@
+[
+  [
+    {
+      "product_family": "Mac",
+      "subfamilies": [
+        {
+          "subfamily_name": "Mini",
+          "models": [
+            {
+              "modelName": "-",
+              "years": [
+                {
+                  "year": 2006,
+                  "model_id": [
+                    "MacMini1,1"
+                  ]
+                },
+                {
+                  "year": 2007,
+                  "model_id": [
+                    "MacMini2,1"
+                  ]
+                },
+                {
+                  "year": 2009,
+                  "model_id": [
+                    "MacMini3,1"
+                  ]
+                },
+                {
+                  "year": 2010,
+                  "model_id": [
+                    "MacMini4,1"
+                  ]
+                },
+                {
+                  "year": 2011,
+                  "model_id": [
+                    [
+                      "MacMini5,1",
+                      "MacMini5,2",
+                      "MacMini5,3"
+                    ]
+                  ]
+                },
+                {
+                  "year": 2012,
+                  "model_id": [
+                    "MacMini6,1",
+                    "MacMini6,2"
+                  ]
+                },
+                {
+                  "year": 2014,
+                  "model_id": [
+                    "MacMini7,1",
+                    "MacMini7,2"
+                  ]
+                },
+                {
+                  "year": 2018,
+                  "model_id": [
+                    "MacMini8,1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subfamily_name": "Pro",
+          "models": [
+            {
+              "modelName": "-",
+              "years": [
+                {
+                  "year": 2006,
+                  "model_id": [
+                    "MacPro1,1"
+                  ]
+                },
+                {
+                  "year": 2007,
+                  "model_id": [
+                    "MacPro2,1"
+                  ]
+                },
+                {
+                  "year": 2008,
+                  "model_id": [
+                    "MacPro3,1"
+                  ]
+                },
+                {
+                  "year": 2009,
+                  "model_id": [
+                    "MacPro4,1"
+                  ]
+                },
+                {
+                  "year": 2010,
+                  "model_id": [
+                    "MacPro5,1"
+                  ]
+                },
+                {
+                  "year": 2012,
+                  "model_id": [
+                    "MacPro5,1"
+                  ]
+                },
+                {
+                  "year": 2013,
+                  "model_id": [
+                    "MacPro6,1"
+                  ]
+                },
+                {
+                  "year": 2019,
+                  "model_id": [
+                    "MacPro7,1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_family": "iMac",
+      "subfamilies": [
+        {
+          "subfamily_name": "Regular",
+          "models": [
+            {
+              "modelName": "17\"",
+              "years": [
+                {
+                  "year": "Early 2006",
+                  "model_id": [
+                    "iMac4,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2006",
+                  "model_id": [
+                    "iMac4,2"
+                  ]
+                },
+                {
+                  "year": "Late 2006",
+                  "model_id": [
+                    "iMac4,3"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "20\"",
+              "years": [
+                {
+                  "year": "Early 2006",
+                  "model_id": [
+                    "iMac4,1"
+                  ]
+                },
+                {
+                  "year": "Late 2006",
+                  "model_id": [
+                    "iMac5,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2007",
+                  "model_id": [
+                    "iMac7,1"
+                  ]
+                },
+                {
+                  "year": "Early 2008",
+                  "model_id": [
+                    "iMac8,1"
+                  ]
+                },
+                {
+                  "year": "Early 2009",
+                  "model_id": [
+                    "iMac9,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2009",
+                  "model_id": [
+                    "iMac9,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "21.5\"",
+              "years": [
+                {
+                  "year": "Late 2009",
+                  "model_id": [
+                    "iMac10,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2010",
+                  "model_id": [
+                    "iMac11,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2011",
+                  "model_id": [
+                    "iMac12,1"
+                  ]
+                },
+                {
+                  "year": "Late 2011",
+                  "model_id": [
+                    "iMac12,1"
+                  ]
+                },
+                {
+                  "year": "Late 2012",
+                  "model_id": [
+                    "iMac13,1"
+                  ]
+                },
+                {
+                  "year": "Early 2013",
+                  "model_id": [
+                    "iMac13,3"
+                  ]
+                },
+                {
+                  "year": "Late 2013",
+                  "model_id": [
+                    "iMac14,1",
+                    "iMac14,3"
+                  ]
+                },
+                {
+                  "year": "Mid 2014",
+                  "model_id": [
+                    "iMac14,4"
+                  ]
+                },
+                {
+                  "year": "Late 2015",
+                  "model_id": [
+                    "iMac16,1"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "iMac18,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "24\"",
+              "years": [
+                {
+                  "year": "Late 2006",
+                  "model_id": [
+                    "iMac6,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2007",
+                  "model_id": [
+                    "iMac7,1"
+                  ]
+                },
+                {
+                  "year": "Early 2008",
+                  "model_id": [
+                    "iMac8,1"
+                  ]
+                },
+                {
+                  "year": "Early 2009",
+                  "model_id": [
+                    "iMac9,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "27\"",
+              "years": [
+                {
+                  "year": "Late 2009",
+                  "model_id": [
+                    "iMac10,1",
+                    "iMac11,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2010",
+                  "model_id": [
+                    "iMac11,3"
+                  ]
+                },
+                {
+                  "year": "Mid 2011",
+                  "model_id": [
+                    "iMac12,2"
+                  ]
+                },
+                {
+                  "year": "Late 2012",
+                  "model_id": [
+                    "iMac13,2"
+                  ]
+                },
+                {
+                  "year": "Late 2013",
+                  "model_id": [
+                    "iMac14,2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subfamily_name": "Retina",
+          "models": [
+            {
+              "modelName": "4K 21.5\"",
+              "years": [
+                {
+                  "year": "Late 2015",
+                  "model_id": [
+                    "iMac16,2"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "iMac18,2"
+                  ]
+                },
+                {
+                  "year": 2019,
+                  "model_id": [
+                    "iMac19,2"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "5K 27\"",
+              "years": [
+                {
+                  "year": "Late 2014",
+                  "model_id": [
+                    "iMac15,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2015",
+                  "model_id": [
+                    "iMac15,1"
+                  ]
+                },
+                {
+                  "year": "Late 2015",
+                  "model_id": [
+                    "iMac17,1"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "iMac18,3"
+                  ]
+                },
+                {
+                  "year": 2020,
+                  "model_id": [
+                    "iMac20,1",
+                    "iMac20,2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subfamily_name": "Pro",
+          "models": [
+            {
+              "modelName": "-",
+              "years": [
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "iMacPro1,1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_family": "MacBook",
+      "subfamilies": [
+        {
+          "subfamily_name": "Regular",
+          "models": [
+            {
+              "modelName": "Polycarbonate",
+              "years": [
+                {
+                  "year": "Mid 2006",
+                  "model_id": [
+                    "MacBook1,1"
+                  ]
+                },
+                {
+                  "year": "Late 2006",
+                  "model_id": [
+                    "MacBook2,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2007",
+                  "model_id": [
+                    "MacBook2,1"
+                  ]
+                },
+                {
+                  "year": "Late 2007",
+                  "model_id": [
+                    "MacBook3,1"
+                  ]
+                },
+                {
+                  "year": "Early 2008",
+                  "model_id": [
+                    "MacBook4,1",
+                    "MacBook4,2"
+                  ]
+                },
+                {
+                  "year": "Late 2008",
+                  "model_id": [
+                    "MacBook5,2"
+                  ]
+                },
+                {
+                  "year": "Early 2009",
+                  "model_id": [
+                    "MacBook5,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2009",
+                  "model_id": [
+                    "MacBook5,2"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "Unibody Aluminum",
+              "years": [
+                {
+                  "year": "Late 2008",
+                  "model_id": [
+                    "MacBook5,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "Polycarbonate Unibody",
+              "years": [
+                {
+                  "year": "Late 2009",
+                  "model_id": [
+                    "MacBook6,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2010",
+                  "model_id": [
+                    "MacBook7,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "Retina 12\"",
+              "years": [
+                {
+                  "year": "Early 2015",
+                  "model_id": [
+                    "MacBook8,1"
+                  ]
+                },
+                {
+                  "year": "Early 2016",
+                  "model_id": [
+                    "MacBook9,1"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "MacBook10,1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subfamily_name": "Pro",
+          "models": [
+            {
+              "modelName": "13\"",
+              "years": [
+                {
+                  "year": "Mid 2009",
+                  "model_id": [
+                    "MacBookPro5,5"
+                  ]
+                },
+                {
+                  "year": "Mid 2010",
+                  "model_id": [
+                    "MacBookPro7,1"
+                  ]
+                },
+                {
+                  "year": "Early 2011",
+                  "model_id": [
+                    "MacBookPro8,1"
+                  ]
+                },
+                {
+                  "year": "Late 2011",
+                  "model_id": [
+                    "MacBookPro8,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2012",
+                  "model_id": [
+                    "MacBookPro9,2"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "13\" Retina",
+              "years": [
+                {
+                  "year": "Late 2012",
+                  "model_id": [
+                    "MacBookPro10,2"
+                  ]
+                },
+                {
+                  "year": "Early 2013",
+                  "model_id": [
+                    "MacBookPro10,2"
+                  ]
+                },
+                {
+                  "year": "Late 2013",
+                  "model_id": [
+                    "MacBookPro11,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2014",
+                  "model_id": [
+                    "MacBookPro11,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2015",
+                  "model_id": [
+                    "MacBookPro12,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "13\" 2 Thunderbolt 3",
+              "years": [
+                {
+                  "year": 2016,
+                  "model_id": [
+                    "MacBookPro13,1"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "MacBookPro14,1"
+                  ]
+                },
+                {
+                  "year": "2019 (Butterfly Keyboard)",
+                  "model_id": [
+                    "MacBookPro15,4"
+                  ]
+                },
+                {
+                  "year": "2019 (Magic Keyboard)",
+                  "model_id": [
+                    "MacBookPro16,1"
+                  ]
+                },
+                {
+                  "year": 2020,
+                  "model_id": [
+                    "MacBookPro16,3"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "13\" 4 Thunderbolt 3",
+              "years": [
+                {
+                  "year": 2016,
+                  "model_id": [
+                    "MacBookPro13,2"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "MacBookPro14,2"
+                  ]
+                },
+                {
+                  "year": 2018,
+                  "model_id": [
+                    "MacBookPro15,2"
+                  ]
+                },
+                {
+                  "year": "2019 (Butterfly Keyboard)",
+                  "model_id": [
+                    "MacBookPro15,2"
+                  ]
+                },
+                {
+                  "year": "2019 (Magic Keyboard)",
+                  "model_id": [
+                    "MacBookPro16,4"
+                  ]
+                },
+                {
+                  "year": 2020,
+                  "model_id": [
+                    "MacBookPro16,2"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "15\"",
+              "years": [
+                {
+                  "year": "Early 2006",
+                  "model_id": [
+                    "MacBookPro1,1"
+                  ]
+                },
+                {
+                  "year": "Late 2006",
+                  "model_id": [
+                    "MacBookPro2,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2007",
+                  "model_id": [
+                    "MacBookPro3,1"
+                  ]
+                },
+                {
+                  "year": "Late 2007",
+                  "model_id": [
+                    "MacBookPro3,1"
+                  ]
+                },
+                {
+                  "year": "Early 2008",
+                  "model_id": [
+                    "MacBookPro4,1"
+                  ]
+                },
+                {
+                  "year": "Late 2008",
+                  "model_id": [
+                    "MacBookPro5,1"
+                  ]
+                },
+                {
+                  "year": "Early 2009",
+                  "model_id": [
+                    "MacBookPro5,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2009",
+                  "model_id": [
+                    "MacBookPro5,3",
+                    "MacBookPro5,4"
+                  ]
+                },
+                {
+                  "year": "Mid 2010",
+                  "model_id": [
+                    "MacBookPro6,2"
+                  ]
+                },
+                {
+                  "year": "Early 2011",
+                  "model_id": [
+                    "MacBookPro8,2"
+                  ]
+                },
+                {
+                  "year": "Late 2011",
+                  "model_id": [
+                    "MacBookPro8,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2012",
+                  "model_id": [
+                    "MacBookPro9,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "15\" Retina",
+              "years": [
+                {
+                  "year": "Mid 2012",
+                  "model_id": [
+                    "MacBookPro10,1"
+                  ]
+                },
+                {
+                  "year": "Early 2013",
+                  "model_id": [
+                    "MacBookPro10,1"
+                  ]
+                },
+                {
+                  "year": "Late 2013",
+                  "model_id": [
+                    "MacBookPro11,2",
+                    "MacBookPro11,3"
+                  ]
+                },
+                {
+                  "year": "Mid 2014",
+                  "model_id": [
+                    "MacBookPro11,2",
+                    "MacBookPro11,3"
+                  ]
+                },
+                {
+                  "year": "Mid 2015",
+                  "model_id": [
+                    "MacBookPro11,4",
+                    "MacBookPro11,5"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "15\" Thunderbolt 3",
+              "years": [
+                {
+                  "year": 2016,
+                  "model_id": [
+                    "MacBookPro13,3"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "MacBookPro14,3"
+                  ]
+                },
+                {
+                  "year": 2018,
+                  "model_id": [
+                    "MacBookPro15,1",
+                    "MacBookPro15,3"
+                  ]
+                },
+                {
+                  "year": 2019,
+                  "model_id": [
+                    "MacBookPro15,1",
+                    "MacBookPro15,3"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "16\"",
+              "years": [
+                {
+                  "year": 2019,
+                  "model_id": [
+                    "MacBookPro16,1",
+                    "MacBookPro16,4"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "17\"",
+              "years": [
+                {
+                  "year": "Early 2006",
+                  "model_id": [
+                    "MacBookPro1,2"
+                  ]
+                },
+                {
+                  "year": "Late 2006",
+                  "model_id": [
+                    "MacBookPro2,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2007",
+                  "model_id": [
+                    "MacBookPro3,1"
+                  ]
+                },
+                {
+                  "year": "Late 2007",
+                  "model_id": [
+                    "MacBookPro3,1"
+                  ]
+                },
+                {
+                  "year": "Early 2008",
+                  "model_id": [
+                    "MacBookPro4,1"
+                  ]
+                },
+                {
+                  "year": "Late 2008",
+                  "model_id": [
+                    "MacBookPro5,1"
+                  ]
+                },
+                {
+                  "year": "Early 2009",
+                  "model_id": [
+                    "MacBookPro5,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2009",
+                  "model_id": [
+                    "MacBookPro5,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2010",
+                  "model_id": [
+                    "MacBookPro6,1"
+                  ]
+                },
+                {
+                  "year": "Early 2011",
+                  "model_id": [
+                    "MacBookPro8,3"
+                  ]
+                },
+                {
+                  "year": "Late 2011",
+                  "model_id": [
+                    "MacBookPro8,3"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subfamily_name": "Air",
+          "models": [
+            {
+              "modelName": "11\"",
+              "years": [
+                {
+                  "year": "Late 2010",
+                  "model_id": [
+                    "MacBookAir3,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2011",
+                  "model_id": [
+                    "MacBookAir4,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2012",
+                  "model_id": [
+                    "MacBookAir5,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2013",
+                  "model_id": [
+                    "MacBookAir6,1"
+                  ]
+                },
+                {
+                  "year": "Early 2014",
+                  "model_id": [
+                    "MacBookAir6,1"
+                  ]
+                },
+                {
+                  "year": "Early 2015",
+                  "model_id": [
+                    "MacBookAir7,1"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "13\"",
+              "years": [
+                {
+                  "year": "Early 2008",
+                  "model_id": [
+                    "MacBookAir1,1"
+                  ]
+                },
+                {
+                  "year": "Late 2008",
+                  "model_id": [
+                    "MacBookAir2,1"
+                  ]
+                },
+                {
+                  "year": "Mid 2009",
+                  "model_id": [
+                    "MacBookAir2,1"
+                  ]
+                },
+                {
+                  "year": "Late 2010",
+                  "model_id": [
+                    "MacBookAir3,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2011",
+                  "model_id": [
+                    "MacBookAir4,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2012",
+                  "model_id": [
+                    "MacBookAir5,2"
+                  ]
+                },
+                {
+                  "year": "Mid 2013",
+                  "model_id": [
+                    "MacBookAir6,2"
+                  ]
+                },
+                {
+                  "year": "Early 2014",
+                  "model_id": [
+                    "MacBookAir6,2"
+                  ]
+                },
+                {
+                  "year": "Early 2015",
+                  "model_id": [
+                    "MacBookAir7,2"
+                  ]
+                },
+                {
+                  "year": 2017,
+                  "model_id": [
+                    "MacBookAir7,2"
+                  ]
+                }
+              ]
+            },
+            {
+              "modelName": "Retina",
+              "years": [
+                {
+                  "year": 2018,
+                  "model_id": [
+                    "MacBookAir8,1"
+                  ]
+                },
+                {
+                  "year": 2019,
+                  "model_id": [
+                    "MacBookAir8,2"
+                  ]
+                },
+                {
+                  "year": 2020,
+                  "model_id": [
+                    "MacBookAir9,1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  {
+    "MacBook2,1": 3,
+    "MacBook3,1": 3,
+    "MacBook4,1": 3,
+    "MacBook5,1": 3,
+    "MacBook5,2": 3,
+    "MacBook5,3": 3,
+    "MacBook6,1": 3,
+    "MacBook7,1": 3,
+    "MacBook8,1": 8,
+    "MacBook9,1": 6,
+    "MacBook10,1": 16,
+    "MacBookAir1,1": 3,
+    "MacBookAir2,1": 3,
+    "MacBookAir3,1": 3,
+    "MacBookAir3,2": 3,
+    "MacBookAir4,1": 2,
+    "MacBookAir4,2": 2,
+    "MacBookAir5,1": 4,
+    "MacBookAir5,2": 4,
+    "MacBookAir6,1": 21,
+    "MacBookAir6,2": 21,
+    "MacBookAir7,1": 21,
+    "MacBookAir7,2": 21,
+    "MacBookAir8,1": 19,
+    "MacBookAir8,2": 23,
+    "MacBookAir9,1": 5,
+    "MacBookPro2,1": 3,
+    "MacBookPro2,2": 3,
+    "MacBookPro3,1": 3,
+    "MacBookPro4,1": 3,
+    "MacBookPro5,1": 3,
+    "MacBookPro5,2": 3,
+    "MacBookPro5,3": 3,
+    "MacBookPro5,4": 3,
+    "MacBookPro5,5": 3,
+    "MacBookPro6,1": 3,
+    "MacBookPro6,2": 3,
+    "MacBookPro7,1": 3,
+    "MacBookPro8,1": 3,
+    "MacBookPro8,2": 3,
+    "MacBookPro8,3": 3,
+    "MacBookPro9,1": 1,
+    "MacBookPro9,2": 1,
+    "MacBookPro10,1": 4,
+    "MacBookPro10,2": 1,
+    "MacBookPro11,1": 21,
+    "MacBookPro11,2": 21,
+    "MacBookPro11,3": 21,
+    "MacBookPro11,4": 21,
+    "MacBookPro11,5": 21,
+    "MacBookPro12,1": 21,
+    "MacBookPro13,1": 9,
+    "MacBookPro13,2": 9,
+    "MacBookPro13,3": 11,
+    "MacBookPro14,1": 16,
+    "MacBookPro14,2": 16,
+    "MacBookPro14,3": 17,
+    "MacBookPro15,1": 20,
+    "MacBookPro15,2": 20,
+    "MacBookPro15,3": 13,
+    "MacBookPro15,4": 22,
+    "MacBookPro16,1": 25,
+    "MacPro1,1": 3,
+    "MacPro2,1": 3,
+    "MacPro3,1": 3,
+    "MacPro4,1": 3,
+    "MacPro5,1": 3,
+    "MacPro6,1": 21,
+    "MacPro7,1": 24,
+    "MacMini2,1": 3,
+    "MacMini3,1": 3,
+    "MacMini4,1": 3,
+    "MacMini5,1": 2,
+    "MacMini5,2": 2,
+    "MacMini5,3": 2,
+    "MacMini6,1": 1,
+    "MacMini6,2": 1,
+    "MacMini7,1": 21,
+    "MacMini8,1": 18,
+    "iMac5,1": 3,
+    "iMac6,1": 3,
+    "iMac7,1": 3,
+    "iMac8,1": 3,
+    "iMac9,1": 3,
+    "iMac10,1": 3,
+    "iMac11,1": 3,
+    "iMac11,2": 3,
+    "iMac11,3": 3,
+    "iMac12,1": 3,
+    "iMac12,2": 3,
+    "iMac13,1": 1,
+    "iMac13,2": 1,
+    "iMac13,3": 1,
+    "iMac14,1": 21,
+    "iMac14,2": 21,
+    "iMac14,3": 21,
+    "iMac14,4": 21,
+    "iMac15,1": 21,
+    "iMac16,1": 7,
+    "iMac16,2": 7,
+    "iMac17,1": 7,
+    "iMac18,1": 10,
+    "iMac18,2": 12,
+    "iMac18,3": 12,
+    "iMac19,1": 14,
+    "iMac19,2": 14,
+    "iMacPro1,1": 15
+  },
+  [
+    "http://swcdn.apple.com/content/downloads/04/44/041-84708/yq9w47gthzu8e8fqmad6hx0vs15fuk4540/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/26/08/041-84821-A_AMCFPC3QDK/4fffs8qgdflw7pn1finqqd40gifh41mvs6/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/29/62/041-84859-A_GGUOSJMIGN/sb1apxcjpp358ze2df6bzhwd49m2cqyzy5/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/57/55/041-84868-A_402D0DFI39/6uz8hhgtd4b87t00mrq0uihiop5ivumsbk/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/50/29/041-84869-A_EJ35WAWA75/obofx71e3kcf8aqzukdrzg7hqpv1p06hca/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/16/33/041-84890/kj5efmjgugmbrx9lknsl7ab6ray0ctwf5o/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/35/26/041-88148-A_FV1FQ1MLRG/qyueop2fculv8o6ybt2oq266qo98pqphb9/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/24/21/041-88430-A_MH044N1M88/l1tfz2ccakcy7ko79ugzcw0naadra581o3/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/63/48/041-88436-A_A9JD5TGYOC/9qwbctjgtpqblqv40gl7uwf625j5pe796i/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/28/47/041-88734-A_Q0SKN07BL0/7knxzec1xmojr5x5t7xnu5a4u6lslmlf9v/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/53/06/041-88735-A_5MC8H30E1T/uzofvyg87dqhkn2qh1ipxy4f1uxduhitsb/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/25/38/041-88737-A_IXJZSM8OLV/fq3xy3duoq3xqp9o2sa8dkjtz5wvjaojhq/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/09/31/041-88738-A_WMEMEM44HQ/hox9b0vuev029dtitorkp40rsgjdnww4qm/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/24/61/041-88748/z2zwt4m9xtxt5sf64w9v5bz760cohxc2jc/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/63/06/041-88804/p3d1dt0il8vi5w3wrzepvrs3992dtmkfwb/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/57/55/041-88815/dmx4z5azm5wktzh9qh8kiyrbz874wj9h4d/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/32/09/041-89042-A_XVZ2U8XKG2/06ub1qfep6wv3g8bb68smwt3ac25xyng83/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/47/29/041-89072-A_HZY5QI4LGV/knck1r3qmsw9nliisjjm7vll0zv1u239eu/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/23/15/041-91731-A_LBI7Q8UWOG/juk1ng0hm623gxh3jv4qxt190ga1h5p0lw/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/26/37/041-91736-A_6XKJ6AQL4K/9qene91xdcr1ytzik312zjmbaxyujy0p7j/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/24/46/041-91737-A_KOBGOTCIEZ/0b9gnebg3ivdfsd79simxpr60vvx9sy31k/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/62/58/041-98143-A_HN8B941A1T/nknv1gt3xcgylggwc11kl5e0j4296tjfo1/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/41/45/061-26565-A_30YFW2NOY7/mcryv1yqxl8bmiok36kl4tiycf3g72uda5/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/52/10/061-26579-A_7RJL96VW4I/z662ygc05hfe7cukb3itfbc8i1j7boxu95/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/11/34/061-51424-A_871BNS3FFP/rcvxhtunel1hk4p63q03jrwfxydbyz9v7o/BootCampESD.pkg",
+    "http://swcdn.apple.com/content/downloads/57/59/061-62383/5cwdopr0f0k6f3lqzb6j3ecnjx2ok9fdiw/BootCampESD.pkg"
+  ]
+]

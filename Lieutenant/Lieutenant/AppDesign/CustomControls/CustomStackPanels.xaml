@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style x:Key="LieutenantDefaultStackPanel" TargetType="StackPanel">
+        <Setter Property="Spacing" Value="2"/>
+    </Style>
+    
+    <Style x:Key="LieutenantStackPanelSettings" TargetType="StackPanel">
+        <Setter Property="Spacing" Value="20"/>
+    </Style>
+    
+    <Style x:Key="LieutenantStackPanelBrowser" TargetType="StackPanel">
+        <Setter Property="Spacing" Value="25"/>
+        <Setter Property="Margin" Value="0,40,0,0"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="LieutenantStackPanelPadding10" TargetType="StackPanel">
+        <Setter Property="Spacing" Value="10"/>
+    </Style>
+
+    <Style x:Key="LieutenantStackPanelPadding10Horizontal" TargetType="StackPanel" BasedOn="{StaticResource LieutenantStackPanelPadding10}">
+        <Setter Property="Orientation" Value="Horizontal"/>
+    </Style>
+
+    <Style x:Key="LieutenantStackPanelHorizontalBase" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Horizontal"/>
+    </Style>
+    <Style x:Key="LieutenantStackPanelHorizontal" TargetType="StackPanel" BasedOn="{StaticResource LieutenantStackPanelHorizontalBase}">
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="Padding" Value="0,0,0,5"/>
+    </Style>
+    
+    <Style x:Key="LieutenantStackPanelPadding10Stretch" TargetType="StackPanel" BasedOn="{StaticResource LieutenantStackPanelPadding10}">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+    </Style>
+    
+    <Style x:Key="LieutenantStackPanelFullPage" TargetType="StackPanel" BasedOn="{StaticResource LieutenantStackPanelPadding10}">
+        <Setter Property="Padding" Value="0,35,0,10"/>
+    </Style>
+
+    <Style x:Key="LieutenantAdobeStackPanel" TargetType="StackPanel" BasedOn="{StaticResource LieutenantDefaultStackPanel}">
+        <Setter Property="Orientation" Value="Horizontal"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+    </Style>
+    <Style x:Key="LieutenantStackPanelMiddle" TargetType="StackPanel" BasedOn="{StaticResource LieutenantDefaultStackPanel}">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="LieutenantStackPanelHorizontalSpacing5" TargetType="StackPanel" BasedOn="{StaticResource LieutenantStackPanelHorizontalBase}">
+        <Setter Property="Spacing" Value="5"/>
+    </Style>
+</ResourceDictionary>
