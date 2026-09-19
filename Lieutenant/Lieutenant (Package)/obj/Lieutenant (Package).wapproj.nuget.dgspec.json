@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj": {}
+    "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj": {}
   },
   "projects": {
-    "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj": {
+    "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
+        "projectUniqueName": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
         "projectName": "Lieutenant (Package)",
-        "projectPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
+        "projectPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
         "packagesPath": "C:\\Users\\dinis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\obj\\",
+        "outputPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
             "framework": "uap10.0.17763",
             "targetAlias": "net451",
             "projectReferences": {
-              "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj": {
-                "projectPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj"
+              "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj": {
+                "projectPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj"
               }
             }
           }
@@ -111,14 +111,14 @@
         }
       }
     },
-    "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj": {
+    "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj",
+        "projectUniqueName": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj",
         "projectName": "Lieutenant",
-        "projectPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj",
+        "projectPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj",
         "packagesPath": "C:\\Users\\dinis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\obj\\",
+        "outputPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -160,6 +160,12 @@
           "framework": "net8.0-windows10.0.19041",
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.31, )",
+              "autoReferenced": true
+            },
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
               "version": "[10.0.28000.2705, )"
@@ -203,6 +209,10 @@
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
               "version": "[8.0.31, 8.0.31]"
             },
             {

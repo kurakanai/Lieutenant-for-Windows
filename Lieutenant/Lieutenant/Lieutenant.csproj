@@ -11,6 +11,7 @@
     <WinUISDKReferences>false</WinUISDKReferences>
 	<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
     <Nullable>enable</Nullable>
+	<JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="AppDesign\ArduinoElements\**" />
@@ -21,6 +22,7 @@
     <PRIResource Remove="AppDesign\ArduinoElements\**" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="API\AppJsonContext.cs" />
     <Compile Remove="API\BootCampExtractor.cs" />
   </ItemGroup>
   <ItemGroup>

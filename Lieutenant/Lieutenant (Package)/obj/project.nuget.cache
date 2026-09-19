@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yeLtpRZk3i0=",
+  "dgSpecHash": "aglrjv2dQss=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
+  "projectFilePath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
   "expectedPackageFiles": [
     "C:\\Users\\dinis\\.nuget\\packages\\microsoft.bcl.numerics\\9.0.0\\microsoft.bcl.numerics.9.0.0.nupkg.sha512",
     "C:\\Users\\dinis\\.nuget\\packages\\microsoft.web.webview2\\1.0.3719.77\\microsoft.web.webview2.1.0.3719.77.nupkg.sha512",

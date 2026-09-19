@@ -4894,11 +4894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
+      "projectUniqueName": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
       "projectName": "Lieutenant (Package)",
-      "projectPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
+      "projectPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\Lieutenant (Package).wapproj",
       "packagesPath": "C:\\Users\\dinis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant (Package)\\obj\\",
+      "outputPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant (Package)\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
@@ -4921,8 +4921,8 @@
           "framework": "uap10.0.17763",
           "targetAlias": "net451",
           "projectReferences": {
-            "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj": {
-              "projectPath": "C:\\Users\\dinis\\source\\repos\\Lieutenant\\Lieutenant\\Lieutenant\\Lieutenant.csproj"
+            "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj": {
+              "projectPath": "C:\\Users\\dinis\\Documents\\GitHub\\Lieutenant for Windows\\Lieutenant\\Lieutenant\\Lieutenant.csproj"
             }
           }
         }

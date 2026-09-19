@@ -32,23 +32,36 @@ namespace Lieutenant.Pages
         public DownloadBootcamp()
         {
             InitializeComponent();
-            _ = LoadCatalogAsync();
+            LoadCatalogAsync();
         }
         private async Task LoadCatalogAsync()
         {
-            // Replace with your actual json path
-            string path = Path.Combine(AppContext.BaseDirectory, "API/BootcampLinks.json");
-            if (!File.Exists(path)) return;
+            try
+            {
+                string path = Path.Combine(AppContext.BaseDirectory, "API", "BootcampLinks.json");
 
-            string json = await File.ReadAllTextAsync(path);
+                if (!File.Exists(path))
+                {
+                    System.Diagnostics.Debug.WriteLine($"Catalog file missing at: {path}");
+                    return;
+                }
 
-            var options = new JsonSerializerOptions();
-            options.Converters.Add(new BootCampCatalogConverter());
+                string json = await File.ReadAllTextAsync(path);
 
-            _catalog = JsonSerializer.Deserialize<BootCampCatalog>(json, options);
+                var options = new JsonSerializerOptions();
+                options.Converters.Add(new BootCampCatalogConverter());
 
-            // Populate the top-level dropdown
-            CboFamily.ItemsSource = _catalog.Families;
+                _catalog = JsonSerializer.Deserialize<BootCampCatalog>(json, options);
+
+                if (_catalog?.Families != null)
+                {
+                    CboFamily.ItemsSource = _catalog.Families;
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Failed to deserialize catalog: {ex.Message}");
+            }
         }
 
         private void CboFamily_SelectionChanged(object sender, SelectionChangedEventArgs e)
