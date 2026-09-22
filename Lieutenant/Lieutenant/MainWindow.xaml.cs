@@ -16,6 +16,7 @@ namespace Lieutenant
         public MainWindow()
         {
             InitializeComponent();
+            MaintenanceAPI.CheckUpdate();
             CommonlyAccessedInstances.mainFrame = contentFrame;
             CommonlyAccessedInstances.nvView = MainNavView;
             this.ExtendsContentIntoTitleBar = true;

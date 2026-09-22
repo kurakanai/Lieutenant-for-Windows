@@ -183,4 +183,49 @@
   <data name="Donate.Content" xml:space="preserve">
     <value>Donate</value>
   </data>
+  <data name="Tmi.Text" xml:space="preserve">
+    <value>Target Model Identifier:</value>
+  </data>
+  <data name="Tdm.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="DetectMacBtn.Content" xml:space="preserve">
+    <value>Detect Mac (Recommended)</value>
+  </data>
+  <data name="ReportWrongInfo.Content" xml:space="preserve">
+    <value>Report wrong information</value>
+  </data>
+  <data name="DownloadURLBlock.Text" xml:space="preserve">
+    <value>Select your Mac</value>
+  </data>
+  <data name="BtnDownload.Content" xml:space="preserve">
+    <value>Download Bootcamp *.pkg</value>
+  </data>
+  <data name="DownloadingText.Text" xml:space="preserve">
+    <value>Downloading Bootcamp package...</value>
+  </data>
+  <data name="DownloadFinishTooltip.Text" xml:space="preserve">
+    <value>You can use 7-zip or NanaZip to extract Bootcamp files.</value>
+  </data>
+  <data name="DownloadFinished.Text" xml:space="preserve">
+    <value>Download finished</value>
+  </data>
+  <data name="OpenLocation.Content" xml:space="preserve">
+    <value>Open file location</value>
+  </data>
+  <data name="DownloadURLBlockBase.Text" xml:space="preserve">
+    <value>Package URL:</value>
+  </data>
+  <data name="Update2" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Updating...</value>
+  </data>
+  <data name="UpdateString" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Up To Date</value>
+  </data>
 </root>

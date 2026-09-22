@@ -23,15 +23,14 @@
                         <Grid>
                             <TextBlock x:Uid="Update" Style="{StaticResource LieutenantVerticalCenterTextBlock}"/>
                             <StackPanel Style="{StaticResource LieutenantStackPanelHorizontal}">
-                                <HyperlinkButton Name="UpdateLocalBtn" x:Uid="UpdateLocalBtn" Style="{StaticResource LieutenantHyperlinkButtonSettings}"/>
                                 <Button Name="UpdateBtn" IsEnabled="False" x:Uid="CheckingUpdates" Style="{StaticResource LieutenantAccentButtonRight}"/>
                             </StackPanel>
                         </Grid>
                         <Grid>
                             <TextBlock x:Uid="kura" Style="{StaticResource LieutenantVerticalCenterTextBlock}"/>
                             <StackPanel Style="{StaticResource LieutenantStackPanelHorizontal}">
-                                <HyperlinkButton x:Uid="Donate" Style="{StaticResource LieutenantHyperlinkButtonSettings}"/>
-                                <HyperlinkButton Content="GitHub" Style="{StaticResource LieutenantHyperlinkButtonSettings}"/>
+                                <HyperlinkButton x:Uid="Donate" Style="{StaticResource LieutenantHyperlinkButtonSettings}" Tapped="HyperlinkButton_Tapped"/>
+                                <HyperlinkButton Content="GitHub" Style="{StaticResource LieutenantHyperlinkButtonSettings}" Tapped="HyperlinkButton_Tapped_1"/>
                             </StackPanel>
                         </Grid>
                     </StackPanel>

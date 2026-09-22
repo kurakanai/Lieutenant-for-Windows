@@ -9,10 +9,12 @@
     mc:Ignorable="d">
 
     <Grid>
-        <StackPanel VerticalAlignment="Center" Spacing="10">
-            <TextBlock x:Uid="WelcomeText" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center"/>
-            <TextBlock x:Uid="WelcomeSubtext" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center"/>
-            <Button Style="{StaticResource LieutenantButton}" Height="100" Width="610" FontSize="20" x:Uid="ThisPCBtn" HorizontalAlignment="Center" Tapped="Button_Tapped"/>
+        <StackPanel VerticalAlignment="Center" Spacing="20">
+            <StackPanel>
+                <TextBlock x:Uid="WelcomeText" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center"/>
+                <TextBlock x:Uid="WelcomeSubtext" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <Button Style="{StaticResource LieutenantButton}"   x:Uid="ThisPCBtn" HorizontalAlignment="Center" Tapped="Button_Tapped"/>
         </StackPanel>
     </Grid>
 </Page>

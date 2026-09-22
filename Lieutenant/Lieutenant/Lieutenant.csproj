@@ -24,6 +24,7 @@
   <ItemGroup>
     <Compile Remove="API\AppJsonContext.cs" />
     <Compile Remove="API\BootCampExtractor.cs" />
+    <Compile Remove="API\FileAPI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="CustomStyles\CustomButtons.xaml" />

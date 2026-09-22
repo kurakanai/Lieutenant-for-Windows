@@ -15,6 +15,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using static Lieutenant.API.BootcampAPI;
 
 // To learn more about WinUI, the WinUI project structure,
@@ -104,17 +105,17 @@ namespace Lieutenant.Pages
         }
         private void UpdateModel(string modelID)
         {
-            TxtDetectedModel.Text = $"Target Model Identifier: {modelID}";
+            TxtDetectedModel.Text = $"{modelID}";
             if (_catalog.ModelLinkIndex.TryGetValue(modelID, out int linkIdx) &&
                     linkIdx >= 0 && linkIdx < _catalog.DownloadLinks.Count)
             {
                 _resolvedUrl = _catalog.DownloadLinks[linkIdx];
-                TxtDownloadUrl.Text = $"Download URL: {_resolvedUrl}";
+                TxtDownloadUrl.Text =  _resolvedUrl;
                 BtnDownload.IsEnabled = true;
             }
             else
             {
-                TxtDownloadUrl.Text = "Download URL: Package link unavailable.";
+                TxtDownloadUrl.Text = "Package link unavailable.";
             }
         }
         private void CboYear_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -133,8 +134,8 @@ namespace Lieutenant.Pages
 
         private void ResetSelectionState()
         {
-            TxtDetectedModel.Text = "Target Model Identifier: None";
-            TxtDownloadUrl.Text = "Download URL: Select a model year";
+            TxtDetectedModel.Text = "None";
+            TxtDownloadUrl.Text = "Select a model year";
             BtnDownload.IsEnabled = false;
             _resolvedUrl = null;
         }
@@ -150,6 +151,11 @@ namespace Lieutenant.Pages
         private void HyperlinkButton_Tapped(object sender, TappedRoutedEventArgs e)
         {
             UpdateModel(MacSMBIOSAPI.GetModelIdentifier());
+        }
+
+        private async void HyperlinkButton_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+            await Launcher.LaunchUriAsync(new Uri(AppStrings.reportUrl));
         }
     }
 }

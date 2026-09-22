@@ -12,17 +12,17 @@
         <StackPanel VerticalAlignment="Center" Spacing="10">
             <TextBlock Text="&#xe896;" FontFamily="Segoe Fluent Icons" HorizontalAlignment="Center" FontSize="72"/>
             <StackPanel Name="DownloadingElements" Spacing="10">
-                <TextBlock Text="Downloading Bootcamp Package..." FontSize="36" HorizontalAlignment="Center"/>
+                <TextBlock x:Uid="DownloadingText" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center"/>
                 <ProgressBar Width="600" x:Name="DownloadProgressBar"/>
                 <TextBlock FontSize="20" Opacity="0.8" x:Name="DownloadProgressText" HorizontalAlignment="Center"/>
             </StackPanel>
             <Border Name="DownloadedBar" Margin="0,16,0,0" Width="630" Padding="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Visibility="Collapsed">
                 <StackPanel Spacing="12">
                     <StackPanel Orientation="Horizontal" Spacing="10">
-                        <TextBlock VerticalAlignment="Center" Text="Download finished" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                        <TextBlock VerticalAlignment="Center" x:Uid="DownloadFinished" Style="{StaticResource BodyStrongTextBlockStyle}"/>
                     </StackPanel>
-                    <TextBlock x:Name="TxtDownloadUrl" Text="You can use 7-zip or NanaZip to extract the downloaded file." TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                    <Button x:Name="BtnOpenFolder" Content="Open file location" Click="BtnOpenFolder_Click" Style="{StaticResource AccentButtonStyle}"/>
+                    <TextBlock x:Name="TxtDownloadUrl" x:Uid="DownloadFinishTooltip" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                    <Button x:Name="BtnOpenFolder" x:Uid="OpenLocation" Click="BtnOpenFolder_Click" Style="{StaticResource AccentButtonStyle}"/>
                 </StackPanel>
             </Border>
         </StackPanel>

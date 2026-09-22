@@ -183,4 +183,49 @@
   <data name="Donate.Content" xml:space="preserve">
     <value>Apoiar</value>
   </data>
+  <data name="Tmi.Text" xml:space="preserve">
+    <value>Modelo escolhido:</value>
+  </data>
+  <data name="Tdm.Text" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="DetectMacBtn.Content" xml:space="preserve">
+    <value>Detetar modelo do Mac (Recomendado)</value>
+  </data>
+  <data name="ReportWrongInfo.Content" xml:space="preserve">
+    <value>Reportar informação incorreta</value>
+  </data>
+  <data name="DownloadURLBlock.Text" xml:space="preserve">
+    <value>Selecione o seu Mac</value>
+  </data>
+  <data name="BtnDownload.Content" xml:space="preserve">
+    <value>Transferir *.pkg do Bootcamp</value>
+  </data>
+  <data name="DownloadingText.Text" xml:space="preserve">
+    <value>A transferir pacote Bootcamp...</value>
+  </data>
+  <data name="DownloadFinishTooltip.Text" xml:space="preserve">
+    <value>Pode utilizar o 7-zip ou o NanaZip para extrair o pacote Bootcamp.</value>
+  </data>
+  <data name="DownloadFinished.Text" xml:space="preserve">
+    <value>Transferência concluída</value>
+  </data>
+  <data name="OpenLocation.Content" xml:space="preserve">
+    <value>Abrir localização do ficheiro</value>
+  </data>
+  <data name="DownloadURLBlockBase.Text" xml:space="preserve">
+    <value>URL do pacote:</value>
+  </data>
+  <data name="Update2" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>A atualizar...</value>
+  </data>
+  <data name="UpdateString" xml:space="preserve">
+    <value>Atualização</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Atualizado</value>
+  </data>
 </root>

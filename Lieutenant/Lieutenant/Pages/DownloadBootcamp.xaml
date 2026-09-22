@@ -13,20 +13,24 @@
             <TextBlock x:Uid="DownloadText" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center"/>
             <TextBlock x:Uid="DownloadSubtext" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
-                <ComboBox x:Name="CboFamily" Height="100" Width="150" FontSize="20" x:Uid="MacFamily" SelectionChanged="CboFamily_SelectionChanged"/>
-                <ComboBox x:Name="CboSubfamily" Height="100" Width="150" FontSize="20" x:Uid="MacProduct" SelectionChanged="CboSubfamily_SelectionChanged"/>
-                <ComboBox x:Name="CboModel" Height="100" Width="150" FontSize="20" x:Uid="MacVariant" SelectionChanged="CboModel_SelectionChanged"/>
-                <ComboBox x:Name="CboYear" Height="100" Width="150" FontSize="20" x:Uid="MacYear" SelectionChanged="CboYear_SelectionChanged"/>
+                <ComboBox x:Name="CboFamily" Width="150" x:Uid="MacFamily" SelectionChanged="CboFamily_SelectionChanged"/>
+                <ComboBox x:Name="CboSubfamily" Width="150" x:Uid="MacProduct" SelectionChanged="CboSubfamily_SelectionChanged"/>
+                <ComboBox x:Name="CboModel" Width="150" x:Uid="MacVariant" SelectionChanged="CboModel_SelectionChanged"/>
+                <ComboBox x:Name="CboYear" Width="150" x:Uid="MacYear" SelectionChanged="CboYear_SelectionChanged"/>
             </StackPanel>
             <Border Margin="0,16,0,0" Width="630" Padding="16" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8">
                 <StackPanel Spacing="12">
-                    <StackPanel Orientation="Horizontal" Spacing="10">
-                        <TextBlock x:Name="TxtDetectedModel" VerticalAlignment="Center" Text="Target Model Identifier: None" Style="{StaticResource BodyStrongTextBlockStyle}"/>
-                        <HyperlinkButton Content="Detect Mac (Recommended)" Height="25" Padding="0" Tapped="HyperlinkButton_Tapped"/>
-                        <HyperlinkButton Content="Report wrong information" Height="25" Padding="0"/>
+                    <TextBlock x:Name="TxtDetectedModelHeader" VerticalAlignment="Center" x:Uid="Tmi" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                    <TextBlock x:Name="TxtDetectedModel" x:Uid="Tdm" VerticalAlignment="Center" Opacity="0.8" Style="{StaticResource BodyStrongTextBlockStyle}"/>
+                    <StackPanel Orientation="Horizontal">
+                        <HyperlinkButton x:Uid="DetectMacBtn" Height="30" Tapped="HyperlinkButton_Tapped"/>
+                        <HyperlinkButton x:Uid="ReportWrongInfo" Height="30" Tapped="HyperlinkButton_Tapped_1" />
                     </StackPanel>
-                    <TextBlock x:Name="TxtDownloadUrl" Text="Download URL: Select a model year" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                    <Button x:Name="BtnDownload" Content="Download Boot Camp Pkg" IsEnabled="False" Click="BtnDownload_Click" Style="{StaticResource AccentButtonStyle}"/>
+                    <StackPanel Orientation="Horizontal" Spacing="5">
+                        <TextBlock x:Name="TxtDownloadUrlBase" x:Uid="DownloadURLBlockBase" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        <TextBlock x:Name="TxtDownloadUrl" x:Uid="DownloadURLBlock" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                    </StackPanel>
+                    <Button x:Name="BtnDownload" x:Uid="BtnDownload" IsEnabled="False" Click="BtnDownload_Click" Style="{StaticResource AccentButtonStyle}"/>
                 </StackPanel>
             </Border>
         </StackPanel>

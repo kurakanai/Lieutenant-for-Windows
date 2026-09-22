@@ -56,7 +56,7 @@ public sealed partial class DownloadProgress : Page
             {
                 double downloadedMB = report.BytesDownloaded / 1024.0 / 1024.0;
                 double totalMB = report.TotalBytes.Value / 1024.0 / 1024.0;
-                DownloadProgressText.Text = $"Downloading: {downloadedMB:F1} MB / {totalMB:F1} MB ({report.Percentage:F0}%)";
+                DownloadProgressText.Text = $"{downloadedMB:F1} MB / {totalMB:F1} MB ({report.Percentage:F0}%)";
             }
         });
 
